@@ -62,9 +62,9 @@ impl EvmOpts {
                     basefee: self.env.block_base_fee_per_gas.into(),
                     gas_limit: self.gas_limit(),
                 },
-                cfg: CfgEnv {
+                cfg: CfgEnv {d
                     chain_id: self.env.chain_id.unwrap_or(31337).into(),
-                    spec_id: SpecId::LONDON,
+                    spec_id: SpecId::LONDON,sdfsdf
                     perf_all_precompiles_have_balance: false,
                     memory_limit: self.memory_limit,
                 },
